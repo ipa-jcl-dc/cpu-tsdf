@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<parameters>
+  <charuco>
+	<!-- squareX : number of squares in x direction
+	     squareY : number of squares in y direction
+	     squareLength: Length of square side (in pixels)
+	     markerLength: Length of marker side (in pixels)
+	     dictionaryID: The dictionary of the markers.
+ 	     borderBits: Number of bits in marker borders -->
+        <params squareX="14" squareY = "10" squareLength="0.0285" markerLength ="0.0171" dictionaryID= "1" borderBits ="1"/>
+  </charuco>
+  <aruco>
+	<!-- markersX : number of markers in x direction
+	     markersY : number of markers in y direction
+	     markerSeparation: Separation between two consecutive markers in the grid (in pixels)
+	     markerLength: Length of marker side (in pixels)
+	     dictionaryID: The dictionary of the markers.
+ 	     borderBits: Number of bits in marker borders -->
+	<params markersX="1" markersY = "1" markerSeparation="20" markerLength="100" dictionaryID= "1" borderBits ="1"/>
+  </aruco>
+</parameters>

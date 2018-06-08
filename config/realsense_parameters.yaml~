@@ -1,0 +1,93 @@
+%YAML:1.0
+---
+#Recommended sets of options optimized for different visual use-cases
+#Max 11 Min 0 step 1%
+Visual Preset: 8
+#Description   : Power of the SR300 projector, with 0 meaning projector off
+#Max 16 Min 0 step 1
+Laser Power: 16
+#Description   : Set the number of patterns projected per frame.
+#The higher the accuracy value the more patterns projected.
+#Increasing the number of patterns help to achieve better accuracy.
+#Note that this control is affecting the Depth FPS
+#Max 3 Min 1 step 1
+Accuracy: 3
+#Description   : Motion vs. Range trade-off, with lower values allowing for better motion
+#sensitivity and higher values allowing for better depth range
+#Max 220 Min 0 step 1
+Motion Range: 9
+#Description   : Set the filter to apply to each depth frame.
+#Each one of the filter is optimized per the application requirements
+#Max 7 Min 0 step 1
+Filter Option: 5
+#Description   : The confidence level threshold used by the Depth algorithm pipe to set whether
+#a pixel will get a valid range or will be marked with invalid range
+#Max 15 Min 0 step 1
+Confidence Threshold: 3
+#Description   : Max number of frames you can hold at a given time. Increasing this number will reduce frame drops but increase latency, and vice versa
+#Current Value : 16
+#Max 32 Min 1 step 1
+Frames Queue Size Depth: 16
+#Description   : Enable / disable backlight compensation
+#Max 4 Min 0 step 1
+Backlight Compensation: 0
+#Description   : UVC image brightness
+#Max 64 Min -64 step 1
+Brightness: 39
+#Description   : UVC image contrast
+#Max 100 Min 0 step 1
+Contrast: 50
+#Description   : Controls exposure time of color camera. Setting any value will disable auto exposure
+#Current Value : 168
+#Max 10000 Min 39 step 1
+Exposure: 168
+#Description   : UVC image gain
+#Max 128 Min 0 step 1
+Gain: 65
+#Description   : UVC image gamma setting
+#Max 500 Min 100 step 1
+Gamma: 330
+#Description   : UVC image hue
+#Max 180 Min -180 step 1
+Hue: 0
+#Description   : UVC image saturation setting
+#Max 100 Min 0 step 1
+Saturation: 64
+#Description   : UVC image sharpness setting
+#Max 100 Min 0 step 1
+Sharpness: 100
+#Description   : Controls white balance of color image. Setting any value will disable auto white balance
+#Max 6500 Min 2800 step 10
+White Balance: 4600
+#Description   : Enable / disable auto-exposure
+Enable Auto Exposure: 0
+#Description   : Enable / disable auto-white-balance
+#Max 1 Min 0 step 1
+Enable Auto White Balance: 0
+#Description   : Max number of frames you can hold at a given time. Increasing this number will reduce frame drops but increase latency, and vice versa
+#Max 32 Min 1 step 1
+Frames Queue Size Color: 16
+################
+#Decimal filter : Reduce the resolution(density) of point cloud
+DecimalFilter:
+ do_filter: false
+#Magnitude: Max 5 Min 1 Step 1
+ Magnitude: 1
+#Spatial filter : edge-preserving spatial smoothing
+SpatialFilter:
+ do_filter: false
+#Magnitude: Max 5 Min 1 Step 1
+ Magnitude: 1
+#Smooth Alpha: Max 1.0 Min 0.25
+ Smooth Alpha: 0.25
+#Smooth Delta: Max 50.0 Min 1.0
+ Smooth Delta: 1.0
+#Temporal Filter : reduces temporal noise
+TemporalFilter:
+ do_filter: false
+#Magnitude Max 15.0 Min 0.0
+ Magnitude: 1.0
+#Smooth Alpha: Max 1.0 Min 0.0
+ Smooth Alpha: 0.0
+#Smooth Delta: Max 100.0 Min 1.0
+ Smooth Delta: 1.0

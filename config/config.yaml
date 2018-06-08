@@ -1,0 +1,46 @@
+%YAML:1.0
+---
+cameraMatrix1: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 619.69, 0., 313.013,
+       0., 619.69, 245.14, 0.,
+       -0., 1.]
+cameraMatrix2: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 614.9, 0., 315.09,
+       0., 614.9, 238.158, 0.,
+       -0., 1.]
+cameraMatrix3: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 615.308, 0., 310.902,
+       0., 615.308, 252.45, 0.,
+       -0., 1.]
+cameraMatrix4: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 618.75, 0., 306.64,
+       0., 618.75, 229.26, 0.,
+       -0., 1.]
+maxDistance: 0.007
+BoundingBox:
+ mixX: 0.03 
+ maxX: 0.3
+ minY: 0.03
+ maxY: 0.25
+ minZ: 0.008
+ maxZ: 0.4
+nCapture: 48
+# Debugging
+debug: 0
+# Step by step :1, Continiously move: 0, continiously move without saving point cloud: 2 
+mode: 0
+mesh: 0
+# Perform Euclidean Clustering, only fuse clusters of points with more than threshold
+threshold_cluster: 3000
