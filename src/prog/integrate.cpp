@@ -19,12 +19,12 @@
 #include <string>
 #include <vector>
 
-int width_ = 640;
-int height_ = 480;
-float focal_length_x_ =  6.14901245e+02;//525.;
-float focal_length_y_ = 6.14901306e+02;//525.;
-float principal_point_x_ = 3.15093414e+02;//319.5;
-float principal_point_y_ = 2.38158493e+02;//239.5;
+int width_ = 1920;//640;
+int height_ = 1080;//480;
+float focal_length_x_ =  1.38352771e+03;//6.14901245e+02;//525.;
+float focal_length_y_ = 1.38352795e+03;//6.14901306e+02;//525.;
+float principal_point_x_ = 9.48960205e+02;//3.15093414e+02;//319.5;
+float principal_point_y_ = 5.35856628e+02;//2.38158493e+02;//239.5;
 //float focal_length_x_ =  525.;
 //float focal_length_y_ =  525.;
 //float principal_point_x_ = 319.5;

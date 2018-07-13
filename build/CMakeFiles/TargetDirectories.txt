@@ -1,0 +1,10 @@
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/install.dir
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/list_install_components.dir
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/edit_cache.dir
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/cpu_tsdf.dir
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/get_intrinsics.dir
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/install/strip.dir
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/install/local.dir
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/tsdf2mesh.dir
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/rebuild_cache.dir
+/home/jcl-stud/decai/hello-world/build/CMakeFiles/integrate.dir
