@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<parameters>
-  <BoundingBox>
-        <threshold mixX="-0.07" maxX = "0.07" minY="-0.07" maxY ="0.07" minZ= "0.008" maxZ ="0.25"/>
-  </BoundingBox>
-  <Registration>
-	<distance max_distance ="0.008"/>	  
-  </Registration>
-</parameters>
